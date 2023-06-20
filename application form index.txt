@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+</style>
+<style>
+h1 {text-align: center;}
+</style>
+</head>
+<body>
+<h1>APPLICATION FORM</h1>
+<hr></hr> <b><h3 style="background-color:LightGray">A.General Question</h3></b>
+      <hr></hr>
+<label for="fname">Proposed Insured name: </label><input type="text"><br>
+
+
+<p><label for="fname">Birth Date: </label><input type="date"> <label for="fname">     Gender: </label> <input type="checkbox">Male <input type="checkbox">Female</p>
+
+<p><label for="fname">Address: </label><input type="text"></p>
+
+
+<p><label for="fname">Phone Number: </label><input type="text"> <label for="fname">Email Address: </label><input type="text"></p>
+<p><label for="fname">ID Number: </label><input type="text">   <label for="fname">Social Security Number: </label><input type="text"></p>
+<p><label for="fname">Status: </label><input type="checkbox">Single <input type="checkbox">Married <input type="checkbox"> Divorced<input type="checkbox">others</p>
+<p><label for="fname">Occupation: </label><input type="text">         Are you a retiree?<input type="checkbox">Yes <input type="checkbox">No</p>
+<hr></hr><b><h3 style="background-color:LightGray">B.Type of Health Coverage</h3></b>
+      <hr></hr>
+<table>
+    <tr> 
+<table style="width:80%">
+  <tr>
+    <th>Employee: <input type="checkbox">Yes <input type="checkbox">No <br> Plan choice: <input type="text"></th>
+    <th>Spouse: <input type="checkbox">Yes <input type="checkbox">No <br> Plan choice: <input type="text"></th>
+    <th>Children: <input type="checkbox">Yes <input type="checkbox">No <br> Plan choice: <input type="text"></th>
+  </tr>
+ </table>
+<p> Complete if spouse/children are proposed for insurance:</p>
+<style>
+th, td {
+    border:1px solid black;
+}
+</style>
+<table style="width:80%">
+    <tr>
+      <th> Name </th>
+      <th> SSN No.</th>
+      <th> Relationship to proposed Insured</th>
+      <th> Birth Date</th>
+      <th> Age </th>
+      <th> Sex </th>
+    </tr>
+    <tr>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+     </tr>
+    <tr>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+     </tr>
+<tr>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+     </tr><tr>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+            <td> &nbsp   </td>
+     </tr>
+</table>
+
+<hr></hr><b><h3 style="background-color:LightGray">C.The Policy</h3></b>
+      <hr></hr>
+<p><label for="fname">Units: </label><input type="text"> <label for="fname">Annual Premium: </label><input type="text"></p>
+<p><label for="fname">Payment Mode: </label> <input type="checkbox">Annual <input type="checkbox">Semi-Annual <input type="checkbox">Monthly PAT(complete PAT card)</p>
+<p><label for="fname">Cash with Application: </label>$<input type="text"></p>
+<p><label for="fname">Planned Modal Premium: </label>$<input type="text"></p>
+<p style="color:MediumSeaGreen;">Terms and Conditions</p>
+<p style="color:MediumSeaGreen;">Improvement should be measured regularly and assessed in <br>order for you to know what's beneficial and what is not.This will<br>help you set new targets.</p>
+<style>
+h4{text-align:left;}
+</style>
+<h4> Date:<br><input type="date"></h4>
+<h4>Signature:<br><input type="text"></h4>
+<style>
+h2{text-align:right;}
+</style>
+<h2><input type="SUBMIT"></h2>
+</body>
+</html>
